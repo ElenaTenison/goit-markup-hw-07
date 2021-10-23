@@ -1,13 +1,12 @@
-.footer .logo {
-  display: block;
-  margin-bottom: 20px;
-}
-
 .footer {
   display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
+  & .logo {
+    display: block;
+    margin-bottom: 20px;
+  }
 }
 
 .footer-item:not(:last-child) {
@@ -44,12 +43,13 @@
   align-items: baseline;
 }
 
-.footer-contact:last-child {
-  margin-left: auto;
-}
-
-.footer-contact:not(:last-child) {
-  margin-right: 70px;
+.footer-contact {
+  &:last-child {
+    margin-left: auto;
+  }
+  &:not(:last-child) {
+    margin-right: 70px;
+  }
 }
 
 .foter-social-title {
