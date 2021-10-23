@@ -1,8 +1,11 @@
 @import "./utils/variables.scss";
-@import "./componetns/common";
+@import "./base/reset";
+@import "./base/common";
 @import "./componetns/container";
 @import "./componetns/hidden";
 @import "./componetns/section";
+@import "./componetns/btn";
+@import "./componetns/social";
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/andvatages";
