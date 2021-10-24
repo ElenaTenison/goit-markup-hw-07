@@ -1,8 +1,9 @@
 @import "./utils/variables";
+@import "./utils/hidden";
+@import "./utils/mixins";
 @import "./base/reset";
 @import "./base/common";
 @import "./componetns/container";
-@import "./componetns/hidden";
 @import "./componetns/section";
 @import "./componetns/btn";
 @import "./componetns/social";

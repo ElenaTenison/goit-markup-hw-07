@@ -30,7 +30,7 @@
 }
 
 .gallery-list__link {
-  display: block;
+  @include block;
   transition: box-shadow 250ms ease-in-out;
   &:hover,
   &:focus,
