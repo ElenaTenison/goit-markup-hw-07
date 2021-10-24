@@ -1,6 +1,5 @@
 .btn {
-  display: flex;
-  align-items: center;
+  @include align();
   text-align: center;
   margin: 0 auto;
   border: 0;

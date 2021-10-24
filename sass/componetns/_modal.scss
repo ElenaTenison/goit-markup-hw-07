@@ -130,8 +130,7 @@
   width: 30px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center;
+  @include align();
   justify-content: center;
   cursor: pointer;
   fill: #000000;
@@ -147,8 +146,7 @@
   color: var(--primary-text-color);
   display: flex;
   margin-bottom: 30px;
-  display: flex;
-  align-items: center;
+  @include align();
   justify-content: center;
   cursor: pointer;
   span {

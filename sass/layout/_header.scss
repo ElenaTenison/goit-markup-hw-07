@@ -3,13 +3,11 @@
 }
 
 .header__container {
-  display: flex;
-  align-items: center;
+  @include align();
 }
 
 .header__navigation {
-  display: flex;
-  align-items: center;
+  @include align();
   & .logo {
     margin-right: 93px;
   }
@@ -43,8 +41,7 @@
   font-weight: 500;
   line-height: 1.14;
   color: var(--secondary-title-color);
-  display: flex;
-  align-items: center;
+  @include align();
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
