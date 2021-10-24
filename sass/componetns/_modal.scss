@@ -50,8 +50,8 @@
   &:hover,
   &:focus {
     border-color: var(--accent-color);
-    & + .icon-input,
-    & + .icon-input {
+    & + .modal__icon-input,
+    & + .modal__icon-input {
       fill: var(--accent-color);
     }
   }
