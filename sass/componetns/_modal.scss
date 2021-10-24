@@ -30,7 +30,7 @@
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--primary-text-color);
-  @include block;
+  display: block;
   margin-bottom: 4px;
 }
 
@@ -93,7 +93,7 @@
 
 .modal__btn {
   padding: 10px 56px;
-  @include block;
+  display: block;
   align-items: center;
   text-align: center;
   margin: 0 auto;
@@ -117,7 +117,7 @@
 }
 
 .modal__input-wraper {
-  @include block;
+  display: block;
   position: relative;
 }
 

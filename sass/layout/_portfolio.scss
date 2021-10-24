@@ -6,6 +6,10 @@
   margin-bottom: 50px;
 }
 
+.button-list__item {
+  display: flex;
+}
+
 .button-list__item:not(:last-child) {
   margin-right: 8px;
 }
@@ -30,7 +34,7 @@
 }
 
 .gallery-list__link {
-  @include block;
+  display: block;
   transition: box-shadow 250ms ease-in-out;
   &:hover,
   &:focus,

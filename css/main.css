@@ -25,7 +25,7 @@ ul {
 }
 
 img {
-  @include block;
+  display: inline;
   max-width: 100%;
   height: auto;
 }
@@ -285,7 +285,7 @@ body {
   height: 4px;
   border-radius: 2px;
   background-color: var(--accent-color);
-  @include block;
+  display: block;
   bottom: -33px;
 }
 
@@ -540,7 +540,7 @@ body {
 }
 
 .gallery-list__link {
-  @include block;
+  display: block;
   transition: box-shadow 250ms ease-in-out;
 }
 
@@ -628,7 +628,7 @@ body {
 }
 
 .footer .logo {
-  @include block;
+  display: block;
   margin-bottom: 20px;
 }
 
@@ -785,7 +785,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--primary-text-color);
-  @include block;
+  display: block;
   margin-bottom: 4px;
 }
 
@@ -854,7 +854,7 @@ body {
 
 .modal__btn {
   padding: 10px 56px;
-  @include block;
+  display: block;
   align-items: center;
   text-align: center;
   margin: 0 auto;
@@ -878,7 +878,7 @@ body {
 }
 
 .modal__input-wraper {
-  @include block;
+  display: block;
   position: relative;
 }
 
